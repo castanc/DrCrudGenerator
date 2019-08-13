@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCRUD", "DrCRUD.csproj", "{016A0DC8-9177-49F3-A1F0-C596F18D9D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F15BEB3A-3BCE-4783-B906-37FB9AB756FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{04492B05-29B2-414A-870A-DC45FA3C1E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\Common\DataAccess\DataAccess.csproj", "{02C81776-5798-4BAA-BEFF-2B618BCE06C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\Common\Utils\Utils.csproj", "{BF9429B0-856A-4CD5-BC16-B78E41D33477}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrCrud_Business", "..\DrCrud_Business\DrCrud_Business.csproj", "{6D3DC86A-FA41-46B6-BBB4-463D1264566B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleSIte", "SampleSIte", "{0458EEA2-0E35-4F23-8B40-6CA712C13C7C}"
+	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
+		..\ES6App\design.txt = ..\ES6App\design.txt
+		..\ES6App\generator.html = ..\ES6App\generator.html
+		..\ES6App\links.txt = ..\ES6App\links.txt
+		..\ES6App\navbar.html = ..\ES6App\navbar.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{016A0DC8-9177-49F3-A1F0-C596F18D9D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016A0DC8-9177-49F3-A1F0-C596F18D9D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016A0DC8-9177-49F3-A1F0-C596F18D9D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016A0DC8-9177-49F3-A1F0-C596F18D9D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C81776-5798-4BAA-BEFF-2B618BCE06C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C81776-5798-4BAA-BEFF-2B618BCE06C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C81776-5798-4BAA-BEFF-2B618BCE06C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C81776-5798-4BAA-BEFF-2B618BCE06C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9429B0-856A-4CD5-BC16-B78E41D33477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9429B0-856A-4CD5-BC16-B78E41D33477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9429B0-856A-4CD5-BC16-B78E41D33477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9429B0-856A-4CD5-BC16-B78E41D33477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3DC86A-FA41-46B6-BBB4-463D1264566B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3DC86A-FA41-46B6-BBB4-463D1264566B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3DC86A-FA41-46B6-BBB4-463D1264566B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3DC86A-FA41-46B6-BBB4-463D1264566B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02C81776-5798-4BAA-BEFF-2B618BCE06C9} = {04492B05-29B2-414A-870A-DC45FA3C1E6A}
+		{BF9429B0-856A-4CD5-BC16-B78E41D33477} = {04492B05-29B2-414A-870A-DC45FA3C1E6A}
+		{6D3DC86A-FA41-46B6-BBB4-463D1264566B} = {F15BEB3A-3BCE-4783-B906-37FB9AB756FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5467DEF-7378-4ADD-85B6-C50B06F7C627}
+	EndGlobalSection
+EndGlobal
